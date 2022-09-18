@@ -4,10 +4,14 @@ import { Link } from 'react-router-dom';
 import HeroImage from '../../Images/heroImage.png';
 import Linkedin from '../../Images/Linkedin.png';
 import ResearchGate from '../../Images/researchGate.png';
-import Github from '../../Images/github.png';
+import Medium from '../../Images/medium.png';
 import Dribble from '../../Images/Dribbble.png';
-import Resume from '../../Images/resume/Resume.pdf';
+// import Resume from '../../Images/resume/Resume.pdf';
+import Resume from '../../Images/resume/resume_laxmi.pdf';
 import { AiOutlineDownload } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaMediumM } from 'react-icons/fa';
+import { BsDribbble } from 'react-icons/bs';
 
 const index = () => {
   return (
@@ -16,18 +20,17 @@ const index = () => {
         <Row className='justify-content-between'>
           <Col md={6}>
             <h1 className='homeWrapper-title'>
-              Hi, I am <strong className='cpr'>Saroj Kunwar </strong>
-              <br />
+              Hi, I am <strong className='cpr'>Laxmee Pandey</strong>
+              <br /> UI/UX Designer
             </h1>
-            <section className='homeWrapper-subtitle'>
+            {/* <section className='homeWrapper-subtitle'>
               {' '}
               Researcher . Designer . Developer
-            </section>
+            </section> */}
             <p className='homeWrapper-desc'>
-              I'm passionate about improving the lives of others through design.
-              I'm constantly learning new things everyday. I'm passionate about
-              improving the lives of others through design. I'm constantly
-              learning new things everyday.
+              I enjoy developing thoughtful solutions that combine the
+              emotional, functional, and aesthetic spectrums and have the
+              opportunity to improve people's lives.
             </p>
 
             <section className='homeWrapper-buttons'>
@@ -54,29 +57,22 @@ const index = () => {
             <section className='homeWrapper-social'>
               <ul>
                 <li>
-                  <Link to='/'>
-                    <img src={Linkedin} alt='' />{' '}
-                  </Link>{' '}
+                  <a
+                    href={'https://www.linkedin.com/in/laxmi-pandey-5a30b31a1/'}
+                    target='_new'
+                  >
+                    <FaLinkedinIn />
+                  </a>{' '}
                 </li>
                 <li>
-                  <Link to='/'>
-                    <img src={ResearchGate} alt='' />{' '}
-                  </Link>{' '}
+                  <a href={'https://medium.com/@pandeylaxmee3'} target='_new'>
+                    <FaMediumM />
+                  </a>{' '}
                 </li>
                 <li>
-                  <Link to='/'>
-                    <img src={Github} alt='' />{' '}
-                  </Link>{' '}
-                </li>
-                <li>
-                  <Link to='/'>
-                    <img src={Linkedin} alt='' />{' '}
-                  </Link>{' '}
-                </li>
-                <li>
-                  <Link to='/'>
-                    <img src={Dribble} alt='' />{' '}
-                  </Link>{' '}
+                  <a href={'https://dribbble.com/laxmee'} target='_new'>
+                    <BsDribbble />
+                  </a>{' '}
                 </li>
 
                 <li className='socialLine'></li>

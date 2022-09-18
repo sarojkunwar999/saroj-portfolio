@@ -34,6 +34,18 @@
       align-items: center;
       li {
         margin-bottom: 1.3rem;
+        a {
+          height: 34px;
+          width: 34px;
+          svg {
+            border-radius: calc(34px);
+            background: #343534;
+            color: #ffffff;
+            padding: 6px;
+
+            font-size: 28px !important;
+          }
+        }
       }
       .socialLine {
         height: 5rem;
@@ -58,13 +70,21 @@
   //   padding: 2rem;
   //   color: white;
   // }
+
+  h2 {
+    color: white;
+    margin-bottom: 3rem;
+  }
   &-item {
-    background: #1b1a22;
+    background: #10130e;
+    color: #dddddd;
     text-align: center;
     border-radius: 4px;
     padding: 2rem;
-    img {
-      height: 2.2rem;
+    margin-bottom: 1rem;
+
+    svg {
+      font-size: 3rem;
     }
   }
 }
@@ -80,13 +100,13 @@
   }
 
   .cardsHolder {
-    background: #1b1a22;
+    background: #10130e;
     margin-bottom: 5rem;
     border-radius: 4px;
     padding: 2rem;
     &-pills {
       span {
-        background: #151616;
+        background: #333333;
         padding: 0.7rem;
         text-transform: uppercase;
       }
@@ -98,6 +118,7 @@
       &-paragraph {
         margin-top: 2rem;
         margin-bottom: 2rem;
+        color: #8d8d8d;
       }
     }
   }

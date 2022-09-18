@@ -3,6 +3,7 @@ import { Col, Row, Container } from 'react-bootstrap';
 
 import TunaImage from '../../Images/tunaImage.png';
 import Pashupati from '../../Images/pashupati.png';
+import Paicho from '../../Images/paicho.png';
 
 const MyWorks = () => {
   return (
@@ -21,13 +22,15 @@ const MyWorks = () => {
               <section className='cardsHolder-desc'>
                 <h3 className='cardsHolder-desc-title'>Tuna Technology</h3>
                 <p className='cardsHolder-desc-paragraph'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae illum tempore veniam aliquam nihil reprehenderit
-                  cumque suscipit quaerat. Rerum perferendis quasi fugiat?
+                  Tuna Technology is a cutting-edge tech company that was
+                  founded to assist businesses in overcoming obstacles and
+                  increasing their ability to compete in the market
                 </p>
-                <button className='bton bton--md bton--ghost'>
-                  View Project
-                </button>
+                <a href='https://www.tunatechnology.com/' target='_new'>
+                  <button className='bton bton--md bton--ghost'>
+                    View Project
+                  </button>
+                </a>
               </section>
             </Col>
             <Col md={6}>
@@ -47,15 +50,17 @@ const MyWorks = () => {
               </section>
 
               <section className='cardsHolder-desc'>
-                <h3 className='cardsHolder-desc-title'>Tuna Technology</h3>
+                <h3 className='cardsHolder-desc-title'>Pashupati Printing</h3>
                 <p className='cardsHolder-desc-paragraph'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae illum tempore veniam aliquam nihil reprehenderit
-                  cumque suscipit quaerat. Rerum perferendis quasi fugiat?
+                  Pashupati Printing Press is a printing and packaging company.
+                  A user-friendly website enables users to quickly and easily
+                  inquire about the services they need.
                 </p>
-                <button className='bton bton--md bton--ghost'>
-                  View Project
-                </button>
+                <a href='https://www.pashupatipress.com/' target='_new'>
+                  <button className='bton bton--md bton--ghost'>
+                    View Project
+                  </button>
+                </a>
               </section>
             </Col>
             <Col md={6}>
@@ -69,54 +74,29 @@ const MyWorks = () => {
       <Container>
         <section className='cardsHolder'>
           <Row className='justify-content-between'>
-            <Col md={5} xs={{ order: 'last' }}>
+            <Col md={5}>
               <section className='cardsHolder-pills'>
                 <span>web design</span>
               </section>
 
               <section className='cardsHolder-desc'>
-                <h3 className='cardsHolder-desc-title'>Tuna Technology</h3>
+                <h3 className='cardsHolder-desc-title'>Paicho Ecommerce</h3>
                 <p className='cardsHolder-desc-paragraph'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae illum tempore veniam aliquam nihil reprehenderit
-                  cumque suscipit quaerat. Rerum perferendis quasi fugiat?
+                  Paicho Pasal is an agro-based company from province 5
+                  established with a mission to best utilize the products from
+                  farmers and make Nepal a Self-sustainable country
                 </p>
-                <button className='bton bton--md bton--ghost'>
-                  View Project
-                </button>
-              </section>
-            </Col>
-            <Col md={6}>
-              <figure>
-                <img src={Pashupati} alt='' />
-              </figure>
-            </Col>
-          </Row>
-        </section>
-      </Container>
-      <Container>
-        <section className='cardsHolder'>
-          <Row className='justify-content-between'>
-            <Col md={5} xs={{ order: 'last' }}>
-              <section className='cardsHolder-pills'>
-                <span>web design</span>
-              </section>
 
-              <section className='cardsHolder-desc'>
-                <h3 className='cardsHolder-desc-title'>Tuna Technology</h3>
-                <p className='cardsHolder-desc-paragraph'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae illum tempore veniam aliquam nihil reprehenderit
-                  cumque suscipit quaerat. Rerum perferendis quasi fugiat?
-                </p>
-                <button className='bton bton--md bton--ghost'>
-                  View Project
-                </button>
+                <a href='https://www.paicho.com/' target='_new'>
+                  <button className='bton bton--md bton--ghost'>
+                    View Project
+                  </button>
+                </a>
               </section>
             </Col>
             <Col md={6}>
               <figure>
-                <img src={Pashupati} alt='' />
+                <img src={Paicho} alt='' />
               </figure>
             </Col>
           </Row>

@@ -9,9 +9,11 @@ const Footer = () => {
         <Container>
           <section className='footerWrapper'>
             <section>
-              <img src={Email} alt='' /> <span>sarojkunwar99@gmail.com</span>
+              <img src={Email} alt='' /> <span>pandeylaxmee3@gmail.com</span>
             </section>
-            <section>copyright 2022 . ALl Rights Reserved</section>
+            <section>
+              copyright © {new Date().getFullYear()} . ALl Rights Reserved
+            </section>
           </section>
         </Container>
       </footer>
