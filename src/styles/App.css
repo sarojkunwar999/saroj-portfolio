@@ -677,8 +677,12 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
 .homeWrapper-buttons .downloadButton {
   color: #d0efbe;
 }
+.homeWrapper-image {
+  margin-top: 3.5rem;
+  margin-left: 2rem;
+}
 .homeWrapper-image img {
-  width: 100%;
+  width: 90%;
   border-radius: 4px;
 }
 .homeWrapper-social {
