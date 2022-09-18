@@ -1,19 +1,23 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-// import Navbbar from '../../components/Navbbar';
+import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
 import Home from '../Home';
+import Contact from '../Contact';
+import Projects from '../Projects';
 
 const App = () => {
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar />
 
-      <main>
+      <main className='darkTheme'>
         <section className='contentWrapper'>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/projects' element={<Projects />} />
           </Routes>
         </section>
       </main>

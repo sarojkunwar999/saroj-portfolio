@@ -6,7 +6,7 @@
   border-width: 1px;
   border-style: solid;
   font-size: 16px;
-  margin: 0.5rem;
+
   transition: all 0.2s ease-in-out;
 
   &--sm {
@@ -37,7 +37,7 @@
 
   &--primary {
     border-color: color(primary, base);
-    color: white;
+    color: black;
     background-color: color(primary, base);
     &:hover {
       background-color: color(primary, hover);
@@ -62,7 +62,7 @@
     border-radius: 4px;
     border-color: color(primary, base);
     color: color(primary, base);
-    background-color: color(white);
+    background-color: transparent;
     &:hover {
       background-color: color(primary, hover);
       border-color: color(primary, hover);
@@ -93,7 +93,7 @@
 
   &--nacked {
     border: none;
-    color: rgb(20, 20, 185);
+    color: white;
     background: none;
     padding: 0;
   }
