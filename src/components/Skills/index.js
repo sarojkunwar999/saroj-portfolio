@@ -9,30 +9,42 @@ import Github from '../../Images/skills/github.png';
 
 const Skills = () => {
   return (
-    <section className='skillsHolder'>
-      <Container>
+    <Container>
+      <section className='skillsHolder'>
         <Row className='justify-content-between'>
-          <Col>
-            <img src={Html} alt='' />
+          <Col md={2}>
+            <section className='skillsHolder-item'>
+              <img src={Html} alt='' />
+            </section>
           </Col>
-          <Col>
-            <img src={Css} alt='' />
+          <Col md={2}>
+            <section className='skillsHolder-item'>
+              <img src={Css} alt='' />
+            </section>
           </Col>
-          <Col>
-            <img src={Js} alt='' />
+          <Col md={2}>
+            <section className='skillsHolder-item'>
+              <img src={Js} alt='' />
+            </section>
           </Col>
-          <Col>
-            <img src={Figma} alt='' />
+          <Col md={2}>
+            <section className='skillsHolder-item'>
+              <img src={Figma} alt='' />
+            </section>
           </Col>
-          <Col>
-            <img src={Illustrator} alt='' />
+          <Col md={2}>
+            <section className='skillsHolder-item'>
+              <img src={Illustrator} alt='' />
+            </section>
           </Col>
-          <Col>
-            <img src={Github} alt='' />
+          <Col md={2}>
+            <section className='skillsHolder-item'>
+              <img src={Github} alt='' />
+            </section>
           </Col>
         </Row>
-      </Container>
-    </section>
+      </section>
+    </Container>
   );
 };
 

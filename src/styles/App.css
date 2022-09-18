@@ -661,15 +661,21 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
 }
 .homeWrapper-title {
   color: white;
-  margin-top: 7rem;
+  margin-top: 8rem;
+}
+.homeWrapper-subtitle {
+  color: white;
+  font-size: 34px;
 }
 .homeWrapper-desc {
-  color: white;
-  margin-top: 3rem;
-  width: 60%;
+  margin-top: 2rem;
+  color: #acacac;
 }
 .homeWrapper-buttons {
   margin-top: 3rem;
+}
+.homeWrapper-buttons .downloadButton {
+  color: #d0efbe;
 }
 .homeWrapper-image img {
   width: 100%;
@@ -698,10 +704,19 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
 }
 
 .skillsHolder {
-  background: #242526;
   margin-top: 5rem;
   padding: 1.5rem;
 }
+.skillsHolder-item {
+  background: #1b1a22;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2rem;
+}
+.skillsHolder-item img {
+  height: 2.2rem;
+}
+
 .worksWrapper {
   color: white;
   margin-top: 8rem;
@@ -711,8 +726,9 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   margin-bottom: 4rem;
 }
 .worksWrapper .cardsHolder {
-  background: #242526;
+  background: #1b1a22;
   margin-bottom: 5rem;
+  border-radius: 4px;
   padding: 2rem;
 }
 .worksWrapper .cardsHolder-pills span {
@@ -754,4 +770,8 @@ footer .footerWrapper {
 .contactHolder .formWrapper .form-control {
   background-color: #242526 !important;
   color: white !important;
+}
+
+.projects {
+  margin-top: 3rem !important;
 }/*# sourceMappingURL=App.css.map */

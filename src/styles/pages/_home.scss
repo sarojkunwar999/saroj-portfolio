@@ -2,15 +2,22 @@
   margin-top: 1.5rem;
   &-title {
     color: white;
-    margin-top: 7rem;
+    margin-top: 8rem;
+  }
+  &-subtitle {
+    color: white;
+    font-size: 34px;
   }
   &-desc {
-    color: white;
-    margin-top: 3rem;
-    width: 60%;
+    margin-top: 2rem;
+    // width: 60%;
+    color: #acacac;
   }
   &-buttons {
     margin-top: 3rem;
+    .downloadButton {
+      color: color(primary, base);
+    }
   }
   &-image {
     img {
@@ -44,7 +51,6 @@
 //skills section
 
 .skillsHolder {
-  background: #242526;
   margin-top: 5rem;
   padding: 1.5rem;
   // &-title {
@@ -52,7 +58,14 @@
   //   padding: 2rem;
   //   color: white;
   // }
-  img {
+  &-item {
+    background: #1b1a22;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2rem;
+    img {
+      height: 2.2rem;
+    }
   }
 }
 
@@ -67,8 +80,9 @@
   }
 
   .cardsHolder {
-    background: #242526;
+    background: #1b1a22;
     margin-bottom: 5rem;
+    border-radius: 4px;
     padding: 2rem;
     &-pills {
       span {
@@ -120,4 +134,8 @@ footer {
       color: white !important;
     }
   }
+}
+
+.projects {
+  margin-top: 3rem !important;
 }
