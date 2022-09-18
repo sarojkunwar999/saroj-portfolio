@@ -707,7 +707,7 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   margin-top: 8rem;
 }
 .worksWrapper-title {
-  text-align: center;
+  text-align: left;
   margin-bottom: 4rem;
 }
 .worksWrapper .cardsHolder {

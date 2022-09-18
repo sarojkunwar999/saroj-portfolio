@@ -7,7 +7,9 @@ import Pashupati from '../../Images/pashupati.png';
 const MyWorks = () => {
   return (
     <section className='worksWrapper'>
-      <h2 className='worksWrapper-title'>Some of My Recent Works</h2>
+      <Container>
+        <h2 className='worksWrapper-title'>Some of My Recent Works</h2>
+      </Container>
       <section className='cardsHolder'>
         <Container>
           <Row className='justify-content-between'>

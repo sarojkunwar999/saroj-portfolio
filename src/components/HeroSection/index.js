@@ -6,6 +6,7 @@ import Linkedin from '../../Images/Linkedin.png';
 import ResearchGate from '../../Images/researchGate.png';
 import Github from '../../Images/github.png';
 import Dribble from '../../Images/Dribbble.png';
+import Resume from '../../Images/resume/Resume.pdf';
 
 const index = () => {
   return (
@@ -27,9 +28,12 @@ const index = () => {
               {' '}
               Let's Talk{' '}
             </button>
-            <button className='bton bton--nacked bton--lg ms-3'>
-              Download Resume
-            </button>
+
+            <a href={Resume} download='Resume.pdf'>
+              <button className='bton bton--nacked bton--lg ms-3'>
+                Download Resume
+              </button>
+            </a>
           </Col>
           <Col md={4}>
             <figure className='homeWrapper-image'>
