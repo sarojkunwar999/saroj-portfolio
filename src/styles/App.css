@@ -30,7 +30,7 @@
 }
 
 .color-primary {
-  color: #d0efbe;
+  color: #4bd6bf;
 }
 .color-gray1 {
   color: #b3b3b3;
@@ -50,14 +50,14 @@
 }
 
 .page-link {
-  color: #d0efbe !important;
+  color: #4bd6bf !important;
 }
 
 .page-item.active .page-link {
   z-index: 3;
   color: #fff !important;
-  background-color: #d0efbe !important;
-  border-color: #d0efbe !important;
+  background-color: #4bd6bf !important;
+  border-color: #4bd6bf !important;
 }
 
 .modalBody {
@@ -81,7 +81,7 @@
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #d0efbe !important;
+  color: #4bd6bf !important;
   background: white !important;
   font-weight: 600;
   border-bottom: 2px solid;
@@ -213,7 +213,7 @@ thead {
 }
 
 .cpr {
-  color: #d0efbe;
+  color: #4bd6bf;
 }
 
 .cprt {
@@ -221,7 +221,7 @@ thead {
 }
 
 .bpr {
-  background: #d0efbe;
+  background: #4bd6bf;
 }
 
 .bprt {
@@ -326,9 +326,9 @@ thead {
   width: 50%;
 }
 .bton--primary {
-  border-color: #d0efbe;
+  border-color: #4bd6bf;
   color: black;
-  background-color: #d0efbe;
+  background-color: #4bd6bf;
 }
 .bton--primary:hover {
   background-color: #84c95c;
@@ -347,8 +347,8 @@ thead {
 }
 .bton--ghost {
   border-radius: 4px;
-  border-color: #d0efbe;
-  color: #d0efbe;
+  border-color: #4bd6bf;
+  color: #4bd6bf;
   background-color: transparent;
 }
 .bton--ghost:hover {
@@ -513,7 +513,7 @@ thead {
   }
 }
 .activeSidebar {
-  color: #d0efbe;
+  color: #4bd6bf;
 }
 
 .notActive {
@@ -575,7 +575,7 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   font-weight: 700;
   line-height: 29px;
   letter-spacing: 0.02em;
-  color: #d0efbe;
+  color: #4bd6bf;
   border-bottom: 0.5px solid #e0e0e0;
   padding-bottom: 10px;
 }
@@ -611,7 +611,7 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  color: #d0efbe;
+  color: #4bd6bf;
 }
 .footer__title--solution {
   -moz-column-count: 2;
@@ -675,10 +675,10 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   margin-top: 3rem;
 }
 .homeWrapper-buttons .downloadButton {
-  color: #d0efbe;
+  color: #4bd6bf;
 }
 .homeWrapper-image img {
-  width: 100%;
+  width: 95%;
   border-radius: 4px;
 }
 .homeWrapper-social {
@@ -688,6 +688,7 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 1rem;
 }
 .homeWrapper-social ul li {
   margin-bottom: 1.3rem;
@@ -752,6 +753,7 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   background: #333333;
   padding: 0.7rem;
   text-transform: uppercase;
+  margin-right: 0.5rem;
 }
 .worksWrapper .cardsHolder-desc {
   margin-top: 3rem;

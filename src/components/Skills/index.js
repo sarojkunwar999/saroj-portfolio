@@ -16,6 +16,8 @@ import { DiPhotoshop } from 'react-icons/di';
 import { FiGithub } from 'react-icons/fi';
 import { DiSass } from 'react-icons/di';
 import { GrGraphQl } from 'react-icons/gr';
+import { SiAdobexd } from 'react-icons/si';
+import { TbBrandTailwind } from 'react-icons/tb';
 
 const Skills = () => {
   return (
@@ -28,11 +30,11 @@ const Skills = () => {
               <FaFigma />
             </section>
           </Col>
-          {/* <Col md={2}>
+          <Col md={2}>
             <section className='skillsHolder-item' title='React'>
               <GrReactjs />
             </section>
-          </Col> */}
+          </Col>
           <Col md={2}>
             <section className='skillsHolder-item' title='HTML'>
               <AiOutlineHtml5 />
@@ -53,11 +55,16 @@ const Skills = () => {
               <DiSass />
             </section>
           </Col>
-          {/* <Col md={2}>
+          <Col md={2}>
+            <section className='skillsHolder-item' title='tailwind'>
+              <TbBrandTailwind />
+            </section>
+          </Col>
+          <Col md={2}>
             <section className='skillsHolder-item' title='graphQL'>
               <GrGraphQl />
             </section>
-          </Col> */}
+          </Col>
           <Col md={2}>
             <section className='skillsHolder-item' title='illustrator'>
               <DiIllustrator />
@@ -71,6 +78,11 @@ const Skills = () => {
           <Col md={2}>
             <section className='skillsHolder-item' title='github'>
               <FiGithub />
+            </section>
+          </Col>
+          <Col md={2}>
+            <section className='skillsHolder-item' title='adobe xd'>
+              <SiAdobexd />
             </section>
           </Col>
         </Row>

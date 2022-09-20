@@ -16,7 +16,9 @@ const MyWorks = () => {
           <Row className='justify-content-between'>
             <Col md={5}>
               <section className='cardsHolder-pills'>
-                <span>web design</span>
+                <span>UX Research</span>
+                <span>UI Design</span>
+                <span>Web Development</span>
               </section>
 
               <section className='cardsHolder-desc'>
@@ -46,7 +48,7 @@ const MyWorks = () => {
           <Row className='justify-content-between'>
             <Col md={5} xs={{ order: 'last' }}>
               <section className='cardsHolder-pills'>
-                <span>web design</span>
+                <span>web development</span>
               </section>
 
               <section className='cardsHolder-desc'>
@@ -76,7 +78,8 @@ const MyWorks = () => {
           <Row className='justify-content-between'>
             <Col md={5}>
               <section className='cardsHolder-pills'>
-                <span>web design</span>
+                <span>web development</span>
+                <span>UI design</span>
               </section>
 
               <section className='cardsHolder-desc'>

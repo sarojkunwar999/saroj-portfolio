@@ -2,16 +2,18 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import HeroImage from '../../Images/heroImage.png';
-import Linkedin from '../../Images/Linkedin.png';
-import ResearchGate from '../../Images/researchGate.png';
-import Medium from '../../Images/medium.png';
-import Dribble from '../../Images/Dribbble.png';
-// import Resume from '../../Images/resume/Resume.pdf';
-import Resume from '../../Images/resume/resume_laxmi.pdf';
+// import Linkedin from '../../Images/Linkedin.png';
+// import ResearchGate from '../../Images/researchGate.png';
+// import Medium from '../../Images/medium.png';
+// import Dribble from '../../Images/Dribbble.png';
+import Resume from '../../Images/resume/Resume.pdf';
+// import Resume from '../../Images/resume/resume_laxmi.pdf';
 import { AiOutlineDownload } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
+import { SiResearchgate } from 'react-icons/si';
 import { FaMediumM } from 'react-icons/fa';
 import { BsDribbble } from 'react-icons/bs';
+import { FiGithub } from 'react-icons/fi';
 
 const index = () => {
   return (
@@ -20,17 +22,19 @@ const index = () => {
         <Row className='justify-content-between'>
           <Col md={6}>
             <h1 className='homeWrapper-title'>
-              Hi, I am <strong className='cpr'>Laxmee Pandey</strong>
-              <br /> UI/UX Designer
+              Hi, I am <strong className='cpr'>Saroj kunwar</strong>
+              <br />
             </h1>
-            {/* <section className='homeWrapper-subtitle'>
+            <section className='homeWrapper-subtitle'>
               {' '}
               Researcher . Designer . Developer
-            </section> */}
+            </section>
             <p className='homeWrapper-desc'>
-              I enjoy developing thoughtful solutions that combine the
-              emotional, functional, and aesthetic spectrums and have the
-              opportunity to improve people's lives.
+              My interest in research, design, and developing solutions
+              motivated me to dive into Design Having 4 years of experience in
+              the design industry and improving the lives of people through
+              design. I keep discovering new things and encountering problems
+              that require better solutions every day.
             </p>
 
             <section className='homeWrapper-buttons'>
@@ -58,19 +62,33 @@ const index = () => {
               <ul>
                 <li>
                   <a
-                    href={'https://www.linkedin.com/in/laxmi-pandey-5a30b31a1/'}
+                    href={'https://www.linkedin.com/in/er-saroj-kunwar/'}
                     target='_new'
                   >
                     <FaLinkedinIn />
                   </a>{' '}
                 </li>
                 <li>
-                  <a href={'https://medium.com/@pandeylaxmee3'} target='_new'>
+                  <a
+                    href={'https://www.researchgate.net/profile/Saroj-Kunwar-2'}
+                    target='_new'
+                  >
+                    <SiResearchgate />
+                  </a>{' '}
+                </li>
+
+                <li>
+                  <a href={'https://github.com/sarojkunwar999'} target='_new'>
+                    <FiGithub />
+                  </a>{' '}
+                </li>
+                <li>
+                  <a href={'https://medium.com/@sarojkunwar999'} target='_new'>
                     <FaMediumM />
                   </a>{' '}
                 </li>
                 <li>
-                  <a href={'https://dribbble.com/laxmee'} target='_new'>
+                  <a href={'https://dribbble.com/sarojunwar999'} target='_new'>
                     <BsDribbble />
                   </a>{' '}
                 </li>

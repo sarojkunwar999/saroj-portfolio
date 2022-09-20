@@ -9,7 +9,7 @@ const Footer = () => {
         <Container>
           <section className='footerWrapper'>
             <section>
-              <img src={Email} alt='' /> <span>pandeylaxmee3@gmail.com</span>
+              <img src={Email} alt='' /> <span>sarojkunwar999@gmail.com</span>
             </section>
             <section>
               copyright © {new Date().getFullYear()} . ALl Rights Reserved
