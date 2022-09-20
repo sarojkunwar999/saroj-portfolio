@@ -219,7 +219,7 @@ const Projects = () => {
                     </button>
                   </a>
                   <a href='https://www.paicho.com/' target='_new'>
-                    <button className='bton bton--md bton--secondary ms-2'>
+                    <button className='bton bton--md bton--secondary ms-0 ms-sm-2 mt-2 mt-sm-0'>
                       case study
                     </button>
                   </a>
@@ -246,11 +246,11 @@ const Projects = () => {
                 <section className='cardsHolder-desc'>
                   <h3 className='cardsHolder-desc-title'>Pashupati Printing</h3>
                   <p className='cardsHolder-desc-paragraph'>
-                    All Electrical is a licensed and insured full-service
-                    electrical solutions provider serving the Greater Toronto
-                    and Hamilton Area(GTHA).We provide all electrical services
-                    from design, construction/installation, maintenance & repair
-                    to emergency 24/7 service.
+                    We have set up a press in Butwal and also in Chitwan and
+                    have been doing printing work in Chitwan for the last five
+                    years. We have set up a press in Butwal and also in Chitwan
+                    and have been doing printing work in Chitwan for the last
+                    five year
                   </p>
                   <a href='https://www.pashupatipress.com/' target='_new'>
                     <button className='bton bton--md bton--ghost'>
@@ -260,7 +260,7 @@ const Projects = () => {
                 </section>
               </Col>
               <Col md={6}>
-                <figure>
+                <figure className='cardsHolder-image'>
                   <img src={Pashupati} alt='' />
                 </figure>
               </Col>

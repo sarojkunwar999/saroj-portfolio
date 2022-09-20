@@ -19,7 +19,7 @@ const MyWorks = () => {
       <Container>
         <section className='cardsHolder'>
           <Row className='justify-content-between'>
-            <Col md={5}>
+            <Col lg={5} md={12}>
               <section className='cardsHolder-pills'>
                 <span>web development</span>
                 <span>QR Ordering</span>
@@ -51,14 +51,14 @@ const MyWorks = () => {
                   target='_new'
                 >
                   <Slide left delay={200}>
-                    <button className='bton bton--md bton--secondary ms-2'>
+                    <button className='bton bton--md bton--secondary ms-0 ms-sm-2 mt-2 mt-sm-0'>
                       Case Study
                     </button>
                   </Slide>
                 </a>
               </section>
             </Col>
-            <Col md={6}>
+            <Col lg={6} md={12}>
               <Fade right>
                 <figure className='cardsHolder-image'>
                   <img src={Sajhamenu} alt='' />
@@ -71,7 +71,7 @@ const MyWorks = () => {
       <Container>
         <section className='cardsHolder'>
           <Row className='justify-content-between'>
-            <Col md={5}>
+            <Col lg={5} md={12}>
               <section className='cardsHolder-pills'>
                 <span>UX Research</span>
                 <span>UI Design</span>
@@ -98,9 +98,9 @@ const MyWorks = () => {
                 </a>
               </section>
             </Col>
-            <Col md={6}>
+            <Col lg={6} md={12}>
               <Fade right>
-                <figure>
+                <figure className='cardsHolder-image'>
                   <img src={TunaImage} alt='' />
                 </figure>
               </Fade>
@@ -112,7 +112,7 @@ const MyWorks = () => {
       <Container>
         <section className='cardsHolder'>
           <Row className='justify-content-between'>
-            <Col md={5} xs={{ order: 'last' }}>
+            <Col lg={5} md={12} xs={{ order: 'last' }}>
               <section className='cardsHolder-pills'>
                 <span>web development</span>
                 <span>Hotel Booking</span>
@@ -141,7 +141,7 @@ const MyWorks = () => {
                 </a>
               </section>
             </Col>
-            <Col md={6}>
+            <Col lg={6} md={12}>
               <Fade left>
                 <figure className='cardsHolder-image'>
                   <img src={HotelPauwa} alt='' />
@@ -154,7 +154,7 @@ const MyWorks = () => {
       <Container>
         <section className='cardsHolder'>
           <Row className='justify-content-between'>
-            <Col md={5} xs={{ order: 'last' }}>
+            <Col lg={5} md={12} xs={{ order: 'last' }}>
               <section className='cardsHolder-pills'>
                 <span>web development</span>
               </section>
@@ -182,7 +182,7 @@ const MyWorks = () => {
                 </a>
               </section>
             </Col>
-            <Col md={6}>
+            <Col lg={6} md={12}>
               <Fade left>
                 <figure className='cardsHolder-image'>
                   <img src={AllElectricall} alt='' />
@@ -195,7 +195,7 @@ const MyWorks = () => {
       <Container>
         <section className='cardsHolder'>
           <Row className='justify-content-between'>
-            <Col md={5}>
+            <Col lg={5} md={12}>
               <section className='cardsHolder-pills'>
                 <span>web development</span>
                 <span>UI design</span>
@@ -223,7 +223,7 @@ const MyWorks = () => {
                 </a>
               </section>
             </Col>
-            <Col md={6}>
+            <Col lg={6} md={12}>
               <Fade right>
                 <figure className='cardsHolder-image'>
                   <img src={Paicho} alt='' />
@@ -237,7 +237,7 @@ const MyWorks = () => {
       <Container>
         <section className='cardsHolder'>
           <Row className='justify-content-between'>
-            <Col md={5} xs={{ order: 'last' }}>
+            <Col lg={5} md={12} xs={{ order: 'last' }}>
               <section className='cardsHolder-pills'>
                 <span>ecommerce</span>
                 <span>web development</span>
@@ -265,7 +265,7 @@ const MyWorks = () => {
                 </a>
               </section>
             </Col>
-            <Col md={6}>
+            <Col lg={6} md={12}>
               <Fade left>
                 <figure className='cardsHolder-image'>
                   <img src={Rucir} alt='' />

@@ -27,84 +27,84 @@ const Skills = () => {
       <section className='skillsHolder'>
         <h2>Skills</h2>
         <Row>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade>
               <section className='skillsHolder-item' title='figma'>
                 <FaFigma />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade>
               <section className='skillsHolder-item' title='React'>
                 <GrReactjs />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={50}>
               <section className='skillsHolder-item' title='HTML'>
                 <AiOutlineHtml5 />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={100}>
               <section className='skillsHolder-item' title='css'>
                 <TbBrandCss3 />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={150}>
               <section className='skillsHolder-item' title='js'>
                 <TbBrandJavascript />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={200}>
               <section className='skillsHolder-item' title='sass'>
                 <DiSass />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={250}>
               <section className='skillsHolder-item' title='tailwind'>
                 <TbBrandTailwind />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={300}>
               <section className='skillsHolder-item' title='graphQL'>
                 <GrGraphQl />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={350}>
               <section className='skillsHolder-item' title='illustrator'>
                 <DiIllustrator />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={400}>
               <section className='skillsHolder-item' title='photoshop'>
                 <DiPhotoshop />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={450}>
               <section className='skillsHolder-item' title='github'>
                 <FiGithub />
               </section>
             </Fade>
           </Col>
-          <Col md={2}>
+          <Col lg={2} md={3} xs={6}>
             <Fade delay={500}>
               <section className='skillsHolder-item' title='adobe xd'>
                 <SiAdobexd />

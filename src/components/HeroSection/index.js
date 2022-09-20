@@ -21,7 +21,7 @@ const index = () => {
     <section className='homeWrapper'>
       <Container>
         <Row className='justify-content-between'>
-          <Col md={6}>
+          <Col md={6} xs={{ order: 'last' }} sm={{ order: 'first' }}>
             <Slide left delay={20}>
               <h1 className='homeWrapper-title'>
                 Hi, I am <strong className='cpr'>Saroj kunwar</strong>

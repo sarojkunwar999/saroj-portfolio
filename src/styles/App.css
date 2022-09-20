@@ -663,13 +663,38 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   color: white;
   margin-top: 8rem;
 }
+@media all and (max-width: 1200px) {
+  .homeWrapper-title {
+    margin-top: 2rem;
+  }
+}
+@media all and (max-width: 768px) {
+  .homeWrapper-title {
+    margin-top: 1rem;
+    font-size: 35px !important;
+  }
+}
 .homeWrapper-subtitle {
   color: white;
-  font-size: 34px;
+}
+@media all and (max-width: 1200px) {
+  .homeWrapper-subtitle {
+    font-size: 24px;
+  }
+}
+@media all and (max-width: 1200px) {
+  .homeWrapper-subtitle {
+    font-size: 18px;
+  }
 }
 .homeWrapper-desc {
   margin-top: 2rem;
   color: #acacac;
+}
+@media all and (max-width: 768px) {
+  .homeWrapper-desc {
+    font-size: 13px;
+  }
 }
 .homeWrapper-buttons {
   margin-top: 3rem;
@@ -677,9 +702,19 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
 .homeWrapper-buttons .downloadButton {
   color: #4bd6bf;
 }
+@media all and (max-width: 576px) {
+  .homeWrapper-image {
+    text-align: center;
+  }
+}
 .homeWrapper-image img {
   width: 95%;
   border-radius: 4px;
+}
+@media all and (max-width: 576px) {
+  .homeWrapper-image img {
+    width: 50%;
+  }
 }
 .homeWrapper-social {
   color: #acacac;
@@ -690,8 +725,18 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   align-items: center;
   padding-top: 1rem;
 }
+@media all and (max-width: 576px) {
+  .homeWrapper-social ul {
+    flex-direction: row;
+  }
+}
 .homeWrapper-social ul li {
   margin-bottom: 1.3rem;
+}
+@media all and (max-width: 576px) {
+  .homeWrapper-social ul li {
+    margin-left: 2rem;
+  }
 }
 .homeWrapper-social ul li a {
   height: 34px;
@@ -709,10 +754,20 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   width: 0.1rem;
   background: rgb(255, 255, 255);
 }
+@media all and (max-width: 576px) {
+  .homeWrapper-social ul .socialLine {
+    display: none;
+  }
+}
 .homeWrapper-social ul .scroll {
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
   letter-spacing: 8px;
+}
+@media all and (max-width: 768px) {
+  .homeWrapper-social ul .scroll {
+    display: none;
+  }
 }
 
 .skillsHolder {
@@ -749,11 +804,21 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   border-radius: 4px;
   padding: 2rem;
 }
+.worksWrapper .cardsHolder-pills {
+  display: flex;
+  flex-wrap: wrap;
+}
 .worksWrapper .cardsHolder-pills span {
   background: #333333;
   padding: 0.7rem;
   text-transform: uppercase;
   margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+@media all and (max-width: 1200px) {
+  .worksWrapper .cardsHolder-pills span {
+    font-size: 13px;
+  }
 }
 .worksWrapper .cardsHolder-desc {
   margin-top: 3rem;
@@ -766,6 +831,12 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
 .worksWrapper .cardsHolder-image img {
   width: 100%;
 }
+@media all and (max-width: 768px) {
+  .worksWrapper .cardsHolder-image img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
 
 footer {
   background: #151616;
@@ -774,6 +845,7 @@ footer {
 footer .footerWrapper {
   display: flex;
   padding: 1rem;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
