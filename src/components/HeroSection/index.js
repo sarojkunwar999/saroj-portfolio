@@ -14,6 +14,7 @@ import { SiResearchgate } from 'react-icons/si';
 import { FaMediumM } from 'react-icons/fa';
 import { BsDribbble } from 'react-icons/bs';
 import { FiGithub } from 'react-icons/fi';
+import Slide from 'react-reveal/Slide';
 
 const index = () => {
   return (
@@ -21,41 +22,50 @@ const index = () => {
       <Container>
         <Row className='justify-content-between'>
           <Col md={6}>
-            <h1 className='homeWrapper-title'>
-              Hi, I am <strong className='cpr'>Saroj kunwar</strong>
-              <br />
-            </h1>
-            <section className='homeWrapper-subtitle'>
-              {' '}
-              Researcher . Designer . Developer
-            </section>
-            <p className='homeWrapper-desc'>
-              My interest in research, design, and developing solutions
-              motivated me to dive into Design Having 4 years of experience in
-              the design industry and improving the lives of people through
-              design. I keep discovering new things and encountering problems
-              that require better solutions every day.
-            </p>
+            <Slide left delay={20}>
+              <h1 className='homeWrapper-title'>
+                Hi, I am <strong className='cpr'>Saroj kunwar</strong>
+                <br />
+              </h1>
+            </Slide>
 
-            <section className='homeWrapper-buttons'>
-              <Link to='/contact'>
-                <button className='bton bton--primary bton--lg '>
-                  {' '}
-                  Let's Talk{' '}
-                </button>
-              </Link>
+            <Slide left delay={50}>
+              <section className='homeWrapper-subtitle'>
+                {' '}
+                Researcher . Designer . Developer
+              </section>
+            </Slide>
+            <Slide left delay={100}>
+              <p className='homeWrapper-desc'>
+                My interest in research, design, and developing solutions
+                motivated me to dive into Design Having 4 years of experience in
+                the design industry and improving the lives of people through
+                design. I keep discovering new things and encountering problems
+                that require better solutions every day.
+              </p>
 
-              <a href={Resume} download='Resume.pdf'>
-                <button className='bton bton--nacked bton--lg ms-3 downloadButton '>
-                  <AiOutlineDownload /> Download Resume
-                </button>
-              </a>
-            </section>
+              <section className='homeWrapper-buttons'>
+                <Link to='/contact'>
+                  <button className='bton bton--primary bton--lg '>
+                    {' '}
+                    Let's Talk{' '}
+                  </button>
+                </Link>
+
+                <a href={Resume} download='Resume.pdf'>
+                  <button className='bton bton--nacked bton--lg ms-3 downloadButton '>
+                    <AiOutlineDownload /> Download Resume
+                  </button>
+                </a>
+              </section>
+            </Slide>
           </Col>
           <Col md={4}>
-            <figure className='homeWrapper-image'>
-              <img src={HeroImage} alt='' />
-            </figure>
+            <Slide right>
+              <figure className='homeWrapper-image'>
+                <img src={HeroImage} alt='' />
+              </figure>
+            </Slide>
           </Col>
           <Col md={1}>
             <section className='homeWrapper-social'>
@@ -65,7 +75,9 @@ const index = () => {
                     href={'https://www.linkedin.com/in/er-saroj-kunwar/'}
                     target='_new'
                   >
-                    <FaLinkedinIn />
+                    <Slide top delay={250}>
+                      <FaLinkedinIn />
+                    </Slide>
                   </a>{' '}
                 </li>
                 <li>
@@ -73,28 +85,37 @@ const index = () => {
                     href={'https://www.researchgate.net/profile/Saroj-Kunwar-2'}
                     target='_new'
                   >
-                    <SiResearchgate />
+                    <Slide top delay={200}>
+                      <SiResearchgate />
+                    </Slide>
                   </a>{' '}
                 </li>
 
                 <li>
                   <a href={'https://github.com/sarojkunwar999'} target='_new'>
-                    <FiGithub />
+                    <Slide top delay={150}>
+                      <FiGithub />
+                    </Slide>
                   </a>{' '}
                 </li>
                 <li>
                   <a href={'https://medium.com/@sarojkunwar999'} target='_new'>
-                    <FaMediumM />
+                    <Slide top delay={100}>
+                      <FaMediumM />
+                    </Slide>
                   </a>{' '}
                 </li>
                 <li>
                   <a href={'https://dribbble.com/sarojunwar999'} target='_new'>
-                    <BsDribbble />
+                    <Slide top delay={50}>
+                      <BsDribbble />
+                    </Slide>
                   </a>{' '}
                 </li>
-
-                <li className='socialLine'></li>
-                <li className='scroll'> SCROLL DOWN </li>
+                <Slide bottom>
+                  <li className='socialLine'></li>
+                  <li className='scroll'> SCROLL DOWN </li>
+                </Slide>
               </ul>
             </section>
           </Col>

@@ -763,6 +763,9 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
   margin-bottom: 2rem;
   color: #8d8d8d;
 }
+.worksWrapper .cardsHolder-image img {
+  width: 100%;
+}
 
 footer {
   background: #151616;

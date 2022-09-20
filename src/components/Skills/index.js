@@ -18,6 +18,8 @@ import { DiSass } from 'react-icons/di';
 import { GrGraphQl } from 'react-icons/gr';
 import { SiAdobexd } from 'react-icons/si';
 import { TbBrandTailwind } from 'react-icons/tb';
+import Zoom from 'react-reveal/Zoom';
+import { Fade } from 'react-reveal';
 
 const Skills = () => {
   return (
@@ -26,64 +28,88 @@ const Skills = () => {
         <h2>Skills</h2>
         <Row>
           <Col md={2}>
-            <section className='skillsHolder-item' title='figma'>
-              <FaFigma />
-            </section>
+            <Fade>
+              <section className='skillsHolder-item' title='figma'>
+                <FaFigma />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='React'>
-              <GrReactjs />
-            </section>
+            <Fade>
+              <section className='skillsHolder-item' title='React'>
+                <GrReactjs />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='HTML'>
-              <AiOutlineHtml5 />
-            </section>
+            <Fade delay={50}>
+              <section className='skillsHolder-item' title='HTML'>
+                <AiOutlineHtml5 />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='css'>
-              <TbBrandCss3 />
-            </section>
+            <Fade delay={100}>
+              <section className='skillsHolder-item' title='css'>
+                <TbBrandCss3 />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='js'>
-              <TbBrandJavascript />
-            </section>
+            <Fade delay={150}>
+              <section className='skillsHolder-item' title='js'>
+                <TbBrandJavascript />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='sass'>
-              <DiSass />
-            </section>
+            <Fade delay={200}>
+              <section className='skillsHolder-item' title='sass'>
+                <DiSass />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='tailwind'>
-              <TbBrandTailwind />
-            </section>
+            <Fade delay={250}>
+              <section className='skillsHolder-item' title='tailwind'>
+                <TbBrandTailwind />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='graphQL'>
-              <GrGraphQl />
-            </section>
+            <Fade delay={300}>
+              <section className='skillsHolder-item' title='graphQL'>
+                <GrGraphQl />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='illustrator'>
-              <DiIllustrator />
-            </section>
+            <Fade delay={350}>
+              <section className='skillsHolder-item' title='illustrator'>
+                <DiIllustrator />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='photoshop'>
-              <DiPhotoshop />
-            </section>
+            <Fade delay={400}>
+              <section className='skillsHolder-item' title='photoshop'>
+                <DiPhotoshop />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='github'>
-              <FiGithub />
-            </section>
+            <Fade delay={450}>
+              <section className='skillsHolder-item' title='github'>
+                <FiGithub />
+              </section>
+            </Fade>
           </Col>
           <Col md={2}>
-            <section className='skillsHolder-item' title='adobe xd'>
-              <SiAdobexd />
-            </section>
+            <Fade delay={500}>
+              <section className='skillsHolder-item' title='adobe xd'>
+                <SiAdobexd />
+              </section>
+            </Fade>
           </Col>
         </Row>
       </section>
