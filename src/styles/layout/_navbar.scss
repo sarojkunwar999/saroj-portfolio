@@ -6,9 +6,9 @@
   &__navBrand {
     margin-bottom: 0;
     img {
-      width: 6rem;
+      width: 4rem;
       @include responsive-for(md) {
-        width: 4rem;
+        width: 2.5rem;
       }
     }
   }
@@ -19,6 +19,10 @@
     &--items {
       padding: 1rem 1.5rem;
       cursor: pointer;
+      color: red;
+      a:hover {
+        color: white !important;
+      }
     }
     @media screen and (max-width: 1040px) {
       display: none;
@@ -33,6 +37,7 @@
         border: none;
         outline: none;
         font-size: 1.8rem;
+        color: rgb(255, 255, 255);
       }
       .mdNav_list_container {
         position: fixed;
@@ -47,7 +52,7 @@
         display: flex;
         justify-content: flex-end;
         .mdNav_list {
-          background-color: white;
+          background-color: #17202a;
           width: 25%;
           min-width: 25rem;
           height: 100%;
@@ -63,7 +68,8 @@
                   border: none;
                   background-color: transparent;
                   outline: none;
-                  font-size: 1.3rem;
+                  font-size: 2rem;
+                  color: rgb(255, 255, 255);
                 }
               }
             }
@@ -106,6 +112,12 @@
   color: white;
 }
 
+.movactiveSidebar {
+  color: color(primary, base);
+}
+.movnotActive {
+  color: white;
+}
 section[role='navDrop'] {
   .btn-success {
     color: color(text-light);

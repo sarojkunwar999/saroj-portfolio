@@ -13,10 +13,11 @@
   }
   &-subtitle {
     color: white;
+    font-size: 28px;
     @include responsive-for(xlg) {
       font-size: 24px;
     }
-    @include responsive-for(xlg) {
+    @include responsive-for(md) {
       font-size: 18px;
     }
   }
@@ -59,12 +60,14 @@
       padding-top: 1rem;
       @include responsive-for(sm) {
         flex-direction: row;
+        justify-content: space-around;
       }
       li {
         margin-bottom: 1.3rem;
-        @include responsive-for(sm) {
-          margin-left: 2rem;
-        }
+        // @include responsive-for(sm) {
+        //   margin-left: 2rem;
+        // }
+
         a {
           height: 34px;
           width: 34px;
@@ -113,7 +116,7 @@
     margin-bottom: 3rem;
   }
   &-item {
-    background: #10130e;
+    background: #03171b;
     color: #dddddd;
     text-align: center;
     border-radius: 4px;
@@ -133,11 +136,10 @@
   margin-top: 8rem;
   &-title {
     text-align: left;
-    margin-bottom: 4rem;
   }
 
   .cardsHolder {
-    background: #10130e;
+    background: #03171b;
     margin-bottom: 5rem;
     border-radius: 4px;
     padding: 2rem;
@@ -146,7 +148,7 @@
       flex-wrap: wrap;
 
       span {
-        background: #333333;
+        background: #22292b;
         padding: 0.7rem;
         text-transform: uppercase;
         margin-right: 0.5rem;

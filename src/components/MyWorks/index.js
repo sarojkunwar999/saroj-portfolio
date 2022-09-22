@@ -9,12 +9,21 @@ import Paicho from '../../Images/paichopasal.png';
 import Rucir from '../../Images/rucir.png';
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
 
 const MyWorks = () => {
   return (
     <section className='worksWrapper'>
       <Container>
-        <h2 className='worksWrapper-title'>Some of My Recent Works</h2>
+        <section className='flex-between'>
+          <h2 className='worksWrapper-title'>Some of My Recent Works</h2>
+
+          <Link to='/projects'>
+            <button className='bton bton--sm bton--nacked'>
+              View all Projects
+            </button>
+          </Link>
+        </section>
       </Container>
       <Container>
         <section className='cardsHolder'>
@@ -62,6 +71,47 @@ const MyWorks = () => {
               <Fade right>
                 <figure className='cardsHolder-image'>
                   <img src={Sajhamenu} alt='' />
+                </figure>
+              </Fade>
+            </Col>
+          </Row>
+        </section>
+      </Container>
+      <Container>
+        <section className='cardsHolder'>
+          <Row className='justify-content-between'>
+            <Col lg={5} md={12} xs={{ order: 'last' }}>
+              <section className='cardsHolder-pills'>
+                <span>ecommerce</span>
+                <span>web development</span>
+                <span>UI design</span>
+              </section>
+
+              <section className='cardsHolder-desc'>
+                <Slide right>
+                  <h3 className='cardsHolder-desc-title'>Rucir Ecommerce</h3>
+                </Slide>
+                <Slide right delay={100}>
+                  <p className='cardsHolder-desc-paragraph'>
+                    Rucri is a B2B wellness product selling company based in
+                    canada. This website is an ecommerce website particularly
+                    focused on selling products in large quantities
+                  </p>
+                </Slide>
+
+                <a href='https://rucir.ca/' target='_new'>
+                  <Slide right delay={200}>
+                    <button className='bton bton--md bton--ghost'>
+                      View Project
+                    </button>
+                  </Slide>
+                </a>
+              </section>
+            </Col>
+            <Col lg={6} md={12}>
+              <Fade left>
+                <figure className='cardsHolder-image'>
+                  <img src={Rucir} alt='' />
                 </figure>
               </Fade>
             </Col>
@@ -154,47 +204,6 @@ const MyWorks = () => {
       <Container>
         <section className='cardsHolder'>
           <Row className='justify-content-between'>
-            <Col lg={5} md={12} xs={{ order: 'last' }}>
-              <section className='cardsHolder-pills'>
-                <span>web development</span>
-              </section>
-
-              <section className='cardsHolder-desc'>
-                <Slide right>
-                  <h3 className='cardsHolder-desc-title'>All ELectricall</h3>
-                </Slide>
-                <Slide right delay={100}>
-                  <p className='cardsHolder-desc-paragraph'>
-                    All Electrical is a licensed and insured full-service
-                    electrical solutions provider serving the Greater Toronto
-                    and Hamilton Area(GTHA).We provide all electrical services
-                    from design, construction/installation, maintenance & repair
-                    to emergency 24/7 service.
-                  </p>
-                </Slide>
-
-                <a href='https://www.allelectrical.ca/' target='_new'>
-                  <Slide right delay={200}>
-                    <button className='bton bton--md bton--ghost'>
-                      View Project
-                    </button>
-                  </Slide>
-                </a>
-              </section>
-            </Col>
-            <Col lg={6} md={12}>
-              <Fade left>
-                <figure className='cardsHolder-image'>
-                  <img src={AllElectricall} alt='' />
-                </figure>
-              </Fade>
-            </Col>
-          </Row>
-        </section>
-      </Container>
-      <Container>
-        <section className='cardsHolder'>
-          <Row className='justify-content-between'>
             <Col lg={5} md={12}>
               <section className='cardsHolder-pills'>
                 <span>web development</span>
@@ -233,30 +242,29 @@ const MyWorks = () => {
           </Row>
         </section>
       </Container>
-
       <Container>
         <section className='cardsHolder'>
           <Row className='justify-content-between'>
             <Col lg={5} md={12} xs={{ order: 'last' }}>
               <section className='cardsHolder-pills'>
-                <span>ecommerce</span>
                 <span>web development</span>
-                <span>UI design</span>
               </section>
 
               <section className='cardsHolder-desc'>
                 <Slide right>
-                  <h3 className='cardsHolder-desc-title'>Rucir Ecommerce</h3>
+                  <h3 className='cardsHolder-desc-title'>All ELectricall</h3>
                 </Slide>
                 <Slide right delay={100}>
                   <p className='cardsHolder-desc-paragraph'>
-                    Rucri is a B2B wellness product selling company based in
-                    canada. This website is an ecommerce website particularly
-                    focused on selling products in large quantities
+                    All Electrical is a licensed and insured full-service
+                    electrical solutions provider serving the Greater Toronto
+                    and Hamilton Area(GTHA).We provide all electrical services
+                    from design, construction/installation, maintenance & repair
+                    to emergency 24/7 service.
                   </p>
                 </Slide>
 
-                <a href='https://rucir.ca/' target='_new'>
+                <a href='https://www.allelectrical.ca/' target='_new'>
                   <Slide right delay={200}>
                     <button className='bton bton--md bton--ghost'>
                       View Project
@@ -268,7 +276,7 @@ const MyWorks = () => {
             <Col lg={6} md={12}>
               <Fade left>
                 <figure className='cardsHolder-image'>
-                  <img src={Rucir} alt='' />
+                  <img src={AllElectricall} alt='' />
                 </figure>
               </Fade>
             </Col>

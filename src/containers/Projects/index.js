@@ -10,8 +10,12 @@ import TunaERP from '../../Images/tunaerp.png';
 import AllElectricall from '../../Images/allelectricall.png';
 import PaichoPasal from '../../Images/paichopasal.png';
 import Fade from 'react-reveal/Fade';
+import { useEffect } from 'react';
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className='worksWrapper projects'>
       <Container>

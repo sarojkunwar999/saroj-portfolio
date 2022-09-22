@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { CloseButton, Container, Dropdown } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
+import { HiMenuAlt3 } from 'react-icons/hi';
+import { AiOutlineClose } from 'react-icons/ai';
 
 //image here
 
@@ -56,7 +58,7 @@ const Navbar = () => {
             <section className='nav_mdInfo'>
               {
                 <button className='open_mdNav' onClick={() => setNavInfo(true)}>
-                  &#9776;
+                  <HiMenuAlt3 className='test' />
                 </button>
               }
             </section>
@@ -76,7 +78,7 @@ const Navbar = () => {
                         className='close_mdNav'
                         onClick={() => setNavInfo(false)}
                       >
-                        <CloseButton />{' '}
+                        <AiOutlineClose />{' '}
                       </button>
                     </div>
                   </li>
@@ -87,14 +89,28 @@ const Navbar = () => {
                   >
                     <NavLink
                       className={(navData) =>
-                        navData.isActive ? 'activeSidebar' : 'notActive'
+                        navData.isActive ? 'movactiveSidebar' : 'movnotActive'
                       }
-                      to='/'
+                      to='/projects'
                     >
-                      Home
+                      projects
                     </NavLink>
                   </li>
+
                   <li
+                    className='navWrapper__navItems--items'
+                    onClick={() => setNavInfo(false)}
+                  >
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? 'movactiveSidebar' : 'movnotActive'
+                      }
+                      to='/contact'
+                    >
+                      Contact
+                    </NavLink>
+                  </li>
+                  {/* <li
                     className='navWrapper__navItems--items'
                     onClick={() => setNavInfo(false)}
                   >
@@ -182,7 +198,7 @@ const Navbar = () => {
                     >
                       Contact
                     </NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               </section>
             }
