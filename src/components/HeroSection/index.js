@@ -37,11 +37,10 @@ const index = () => {
             </Slide>
             <Slide left delay={100}>
               <p className='homeWrapper-desc'>
-                My interest in research, design, and developing solutions
-                motivated me to dive into Design Having 4 years of experience in
-                the design industry and improving the lives of people through
-                design. I keep discovering new things and encountering problems
-                that require better solutions every day.
+                My interest in research, design, and developing solutions has
+                always motivated me for innovations. Providing Business solutons
+                with technology and making people's lives better has always been
+                my priority.
               </p>
 
               <section className='homeWrapper-buttons'>
