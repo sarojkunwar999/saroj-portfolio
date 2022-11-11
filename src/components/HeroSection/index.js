@@ -38,9 +38,9 @@ const index = () => {
             <Slide left delay={100}>
               <p className='homeWrapper-desc'>
                 My interest in research, design, and developing solutions has
-                always motivated me for innovations. Providing Business solutons
-                with technology and making people's lives better has always been
-                my priority.
+                always motivated me for innovations. Providing Business
+                solutions with technology and making people's lives better has
+                always been my priority.
               </p>
 
               <section className='homeWrapper-buttons'>
@@ -72,7 +72,8 @@ const index = () => {
                 <li>
                   <a
                     href={'https://www.linkedin.com/in/er-saroj-kunwar/'}
-                    target='_new'
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <Slide top delay={250}>
                       <FaLinkedinIn />
@@ -82,7 +83,8 @@ const index = () => {
                 <li>
                   <a
                     href={'https://www.researchgate.net/profile/Saroj-Kunwar-2'}
-                    target='_new'
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <Slide top delay={200}>
                       <SiResearchgate />
@@ -91,21 +93,33 @@ const index = () => {
                 </li>
 
                 <li>
-                  <a href={'https://github.com/sarojkunwar999'} target='_new'>
+                  <a
+                    href={'https://github.com/sarojkunwar999'}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Slide top delay={150}>
                       <FiGithub />
                     </Slide>
                   </a>{' '}
                 </li>
                 <li>
-                  <a href={'https://medium.com/@sarojkunwar999'} target='_new'>
+                  <a
+                    href={'https://medium.com/@sarojkunwar999'}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Slide top delay={100}>
                       <FaMediumM />
                     </Slide>
                   </a>{' '}
                 </li>
                 <li>
-                  <a href={'https://dribbble.com/sarojunwar999'} target='_new'>
+                  <a
+                    href={'https://dribbble.com/sarojunwar999'}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Slide top delay={50}>
                       <BsDribbble />
                     </Slide>

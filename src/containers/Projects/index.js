@@ -11,6 +11,7 @@ import AllElectricall from '../../Images/allelectricall.png';
 import PaichoPasal from '../../Images/paichopasal.png';
 import Fade from 'react-reveal/Fade';
 import { useEffect } from 'react';
+import Logos from '../../components/Logos';
 
 const Projects = () => {
   useEffect(() => {
@@ -18,10 +19,11 @@ const Projects = () => {
   }, []);
   return (
     <section className='worksWrapper projects'>
+      <h2 className='mainTitle'>More From My Basket</h2>
+      <Logos />
       <Container>
-        <h2 className='worksWrapper-title'>My Featured Projects</h2>
+        <h2 className='worksWrapper-title'>Web and App Projects</h2>
       </Container>
-
       <Fade bottom>
         <Container>
           <section className='cardsHolder'>
@@ -42,11 +44,18 @@ const Projects = () => {
                   <p className='cardsHolder-desc-paragraph'>
                     SIYA STEEL industries pvt. ltd. is a furniture manufacture
                     company that is mainly focused on manufacturing steel based
-                    closets and almaris. We are established with a motto
-                    "Remember us for best quality". We have wide varity of
-                    products and we guarentee life long quality and service.
+                    closets and almaris. <br />
+                    In this project I was involved in UX research, Information
+                    Architecture and User Flow Design, Data Driven decisions
+                    making, UI Design and front end development. A design system
+                    was implemented in this project for overall consistent
+                    architecture of the project.
                   </p>
-                  <a href='https://www.siyasteel.com/' target='_new'>
+                  <a
+                    href='https://www.siyasteel.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <button className='bton bton--md bton--ghost'>
                       View Project
                     </button>
@@ -73,8 +82,17 @@ const Projects = () => {
                   <p className='cardsHolder-desc-paragraph'>
                     Manage accounting, inventory, operations, distribution,
                     Human Rresource and more from a single application.
+                    <br />
+                    In this project I was involved in UX research,User
+                    Interviews, Storyboarding Information Architecture and User
+                    Flow Design, Data Driven decisions making, UI Design and
+                    front end development.
                   </p>
-                  <a href='https://tuna-erp.com/' target='_new'>
+                  <a
+                    href='https://tuna-erp.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <button className='bton bton--md bton--ghost'>
                       View Project
                     </button>
@@ -111,13 +129,19 @@ const Projects = () => {
                     All Electricall Website
                   </h3>
                   <p className='cardsHolder-desc-paragraph'>
-                    All Electrical is a licensed and insured full-service
-                    electrical solutions provider serving the Greater Toronto
-                    and Hamilton Area(GTHA).We provide all electrical services
-                    from design, construction/installation, maintenance & repair
-                    to emergency 24/7 service.
+                    All Electrical provides all electrical services from design,
+                    construction/installation, maintenance & repair to emergency
+                    24/7 service.
+                    <br />
+                    In this project I was involves in UX research and survays,
+                    requirement gathering, Information Architecture, UI Design
+                    and Implementation.
                   </p>
-                  <a href='https://www.allelectrical.ca/' target='_new'>
+                  <a
+                    href='https://www.allelectrical.ca/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <button className='bton bton--md bton--ghost'>
                       View Project
                     </button>
@@ -143,11 +167,20 @@ const Projects = () => {
                     Paicho Pasal Website
                   </h3>
                   <p className='cardsHolder-desc-paragraph'>
-                    Paicho Pasal is an agro based company from province 5
+                    Paicho Pasal is an agro-based company from province 5
                     established with a mission to best utilize the products from
-                    farmers and make Nepal a Self-sustainable country.
+                    farmers and make Nepal a Self-sustainable country
+                    <br />
+                    In this project I was involved in UX research, Survays ,
+                    Information Architecture and User Flow Design, UI Design,
+                    responsive design and full development of the project. front
+                    end development.
                   </p>
-                  <a href='https://www.paicho.com/' target='_new'>
+                  <a
+                    href='https://www.paicho.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <button className='bton bton--md bton--ghost'>
                       View Project
                     </button>
@@ -185,9 +218,16 @@ const Projects = () => {
                   <p className='cardsHolder-desc-paragraph'>
                     Hotel Pauwa is established to provide the place to stay and
                     take rest with the environment of Nepalese taste, culture
-                    and hospitality to all the people across the globe.
+                    and hospitality to all the people across the globe. <br />
+                    In this website I was involved in User Interviews and
+                    empathy mapping, making user personas, Developing UI and UX
+                    testing.
                   </p>
-                  <a href='https://www.hotelpauwa.com/' target='_new'>
+                  <a
+                    href='https://www.hotelpauwa.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <button className='bton bton--md bton--ghost'>
                       View Project
                     </button>
@@ -217,12 +257,20 @@ const Projects = () => {
                     experience that keeps your guests engaged and ordering more
                   </p>
 
-                  <a href='https://www.sajhamenu.com/' target='_new'>
+                  <a
+                    href='https://www.sajhamenu.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <button className='bton bton--md bton--ghost'>
                       View Project
                     </button>
                   </a>
-                  <a href='https://www.paicho.com/' target='_new'>
+                  <a
+                    href='https://www.paicho.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <button className='bton bton--md bton--secondary ms-0 ms-sm-2 mt-2 mt-sm-0'>
                       case study
                     </button>
@@ -254,9 +302,17 @@ const Projects = () => {
                     have been doing printing work in Chitwan for the last five
                     years. We have set up a press in Butwal and also in Chitwan
                     and have been doing printing work in Chitwan for the last
-                    five year
+                    five year.
+                    <br />
+                    In this project I was involves in UX research and survays,
+                    requirement gathering, Information Architecture, UI Design
+                    and Implementation.
                   </p>
-                  <a href='https://www.pashupatipress.com/' target='_new'>
+                  <a
+                    href='https://www.pashupatipress.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <button className='bton bton--md bton--ghost'>
                       View Project
                     </button>

@@ -1,8 +1,22 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useState } from 'react';
 import { Col, Container, Form, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
 const About = () => {
+  const [fullName, setFullName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const submit = async (e) => {
+    e.preventDefault();
+    axios.post('https://saroj-mail.onrender.com/api/send', {
+      full_name: fullName,
+      email,
+      message,
+    });
+  };
+
   return (
     <>
       <section className='contactHolder'>
@@ -25,6 +39,10 @@ const About = () => {
                       <Form.Control
                         type='email'
                         placeholder='Full name'
+                        value={fullName}
+                        onChange={(e) => {
+                          setFullName(e.target.value);
+                        }}
                         required
                       />
                     </Form.Group>
@@ -34,6 +52,10 @@ const About = () => {
                         type='email'
                         placeholder='Enter email'
                         required
+                        value={email}
+                        onChange={(e) => {
+                          setEmail(e.target.value);
+                        }}
                       />
                     </Form.Group>
                     <Form.Group
@@ -41,11 +63,22 @@ const About = () => {
                       controlId='exampleForm.ControlTextarea1'
                     >
                       <Form.Label>Message</Form.Label>
-                      <Form.Control as='textarea' rows={3} required />
+                      <Form.Control
+                        as='textarea'
+                        rows={3}
+                        required
+                        value={message}
+                        onChange={(e) => {
+                          setMessage(e.target.value);
+                        }}
+                      />
                     </Form.Group>
                     <button
                       className='bton bton--primary bton--full'
                       type='submit'
+                      onClick={(e) => {
+                        submit(e);
+                      }}
                     >
                       Submit
                     </button>

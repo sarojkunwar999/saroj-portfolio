@@ -31,6 +31,7 @@ const Skills = () => {
             <Fade>
               <section className='skillsHolder-item' title='figma'>
                 <FaFigma />
+                <div className='mt-3'>Figma</div>
               </section>
             </Fade>
           </Col>
@@ -38,6 +39,7 @@ const Skills = () => {
             <Fade>
               <section className='skillsHolder-item' title='React'>
                 <GrReactjs />
+                <div className='mt-3'>React</div>
               </section>
             </Fade>
           </Col>
@@ -45,6 +47,7 @@ const Skills = () => {
             <Fade delay={50}>
               <section className='skillsHolder-item' title='HTML'>
                 <AiOutlineHtml5 />
+                <div className='mt-3'>HTML</div>
               </section>
             </Fade>
           </Col>
@@ -52,6 +55,7 @@ const Skills = () => {
             <Fade delay={100}>
               <section className='skillsHolder-item' title='css'>
                 <TbBrandCss3 />
+                <div className='mt-3'>Css</div>
               </section>
             </Fade>
           </Col>
@@ -59,6 +63,7 @@ const Skills = () => {
             <Fade delay={150}>
               <section className='skillsHolder-item' title='js'>
                 <TbBrandJavascript />
+                <div className='mt-3'>JS</div>
               </section>
             </Fade>
           </Col>
@@ -66,6 +71,7 @@ const Skills = () => {
             <Fade delay={200}>
               <section className='skillsHolder-item' title='sass'>
                 <DiSass />
+                <div className='mt-3'>Saas</div>
               </section>
             </Fade>
           </Col>
@@ -73,6 +79,7 @@ const Skills = () => {
             <Fade delay={250}>
               <section className='skillsHolder-item' title='tailwind'>
                 <TbBrandTailwind />
+                <div className='mt-3'>Tailwind Css</div>
               </section>
             </Fade>
           </Col>
@@ -80,6 +87,7 @@ const Skills = () => {
             <Fade delay={300}>
               <section className='skillsHolder-item' title='graphQL'>
                 <GrGraphQl />
+                <div className='mt-3'>Graph QL</div>
               </section>
             </Fade>
           </Col>
@@ -87,6 +95,7 @@ const Skills = () => {
             <Fade delay={350}>
               <section className='skillsHolder-item' title='illustrator'>
                 <DiIllustrator />
+                <div className='mt-3'> Illustrator</div>
               </section>
             </Fade>
           </Col>
@@ -94,6 +103,7 @@ const Skills = () => {
             <Fade delay={400}>
               <section className='skillsHolder-item' title='photoshop'>
                 <DiPhotoshop />
+                <div className='mt-3'> Photoshop</div>
               </section>
             </Fade>
           </Col>
@@ -101,6 +111,7 @@ const Skills = () => {
             <Fade delay={450}>
               <section className='skillsHolder-item' title='github'>
                 <FiGithub />
+                <div className='mt-3'>Git Hub</div>
               </section>
             </Fade>
           </Col>
@@ -108,6 +119,7 @@ const Skills = () => {
             <Fade delay={500}>
               <section className='skillsHolder-item' title='adobe xd'>
                 <SiAdobexd />
+                <div className='mt-3'>XD</div>
               </section>
             </Fade>
           </Col>

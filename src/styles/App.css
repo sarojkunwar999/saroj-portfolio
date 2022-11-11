@@ -801,13 +801,34 @@ section[role=navDrop] .show > .btn-success.dropdown-toggle {
 .skillsHolder-item svg {
   font-size: 3rem;
 }
+.skillsHolder-item img {
+  width: 100%;
+  height: 7rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background: white;
+  padding: 0.5rem;
+}
 
 .worksWrapper {
   color: white;
   margin-top: 8rem;
 }
 .worksWrapper-title {
-  text-align: left;
+  text-align: center;
+  font-size: 3rem !important;
+  margin-bottom: 3rem;
+}
+.worksWrapper .mainTitle {
+  text-align: center;
+  font-size: 9rem !important;
+  width: 80%;
+  margin: 0 auto;
+}
+@media all and (max-width: 576px) {
+  .worksWrapper .mainTitle {
+    font-size: 5rem !important;
+  }
 }
 .worksWrapper .cardsHolder {
   background: #03171b;
