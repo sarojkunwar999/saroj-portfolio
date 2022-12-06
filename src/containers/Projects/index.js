@@ -12,6 +12,7 @@ import PaichoPasal from '../../Images/paichopasal.png';
 import Fade from 'react-reveal/Fade';
 import { useEffect } from 'react';
 import Logos from '../../components/Logos';
+import MyWorks from '../../components/MyWorks';
 
 const Projects = () => {
   useEffect(() => {
@@ -21,10 +22,8 @@ const Projects = () => {
     <section className='worksWrapper projects'>
       <h2 className='mainTitle'>More From My Basket</h2>
       <Logos />
-      <Container>
-        <h2 className='worksWrapper-title'>Web and App Projects</h2>
-      </Container>
-      <Fade bottom>
+      <MyWorks />
+      {/* <Fade bottom>
         <Container>
           <section className='cardsHolder'>
             <Row className='justify-content-between'>
@@ -327,7 +326,7 @@ const Projects = () => {
             </Row>
           </section>
         </Container>
-      </Fade>
+      </Fade> */}
     </section>
   );
 };

@@ -31,6 +31,16 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
+            <li className='navWrapper__navItems--items'>
+              <NavLink
+                className={(navData) =>
+                  navData.isActive ? 'activeSidebar' : 'notActive'
+                }
+                to='/how'
+              >
+                How I work
+              </NavLink>
+            </li>
 
             <li className='navWrapper__navItems--items'>
               <NavLink
@@ -83,6 +93,19 @@ const Navbar = () => {
                     </div>
                   </li>
 
+                  <li
+                    className='navWrapper__navItems--items'
+                    onClick={() => setNavInfo(false)}
+                  >
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? 'movactiveSidebar' : 'movnotActive'
+                      }
+                      to='/how'
+                    >
+                      How I work
+                    </NavLink>
+                  </li>
                   <li
                     className='navWrapper__navItems--items'
                     onClick={() => setNavInfo(false)}

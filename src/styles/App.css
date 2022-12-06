@@ -901,4 +901,57 @@ footer .footerWrapper {
 
 .projects {
   margin-top: 3rem !important;
+}
+
+.howWrapper--title {
+  color: white !important;
+  text-align: center;
+  font-size: 5rem !important;
+  margin: 10rem 0;
+}
+@media all and (max-width: 576px) {
+  .howWrapper--title {
+    font-size: 1.5rem !important;
+    margin: 5rem 0;
+  }
+}
+.howWrapper .workWay {
+  text-align: center;
+}
+.howWrapper .workWay h3 {
+  color: white !important;
+  text-align: left;
+}
+.howWrapper .workWay figure {
+  margin-top: 3rem;
+  background: rgb(44, 44, 44);
+  border-radius: 6px;
+}
+.howWrapper .workWay figure img {
+  width: 70%;
+}
+@media all and (max-width: 768px) {
+  .howWrapper .workWay figure img {
+    width: 100%;
+  }
+}
+.howWrapper .workWay .workItems h3 {
+  margin-top: 3rem;
+}
+.howWrapper .workWay .workItems figure img {
+  height: 35rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1rem;
+}
+@media all and (max-width: 768px) {
+  .howWrapper .workWay .workItems figure img {
+    height: 25rem;
+  }
+}
+@media all and (max-width: 768px) {
+  .howWrapper .workWay .workItems figure img {
+    height: 20rem;
+  }
 }/*# sourceMappingURL=App.css.map */

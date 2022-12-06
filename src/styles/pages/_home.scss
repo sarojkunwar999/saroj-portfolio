@@ -234,3 +234,56 @@ footer {
 .projects {
   margin-top: 3rem !important;
 }
+
+.howWrapper {
+  &--title {
+    color: white !important;
+    text-align: center;
+    font-size: 5rem !important;
+    margin: 10rem 0;
+    @include responsive-for(sm) {
+      font-size: 1.5rem !important;
+      margin: 5rem 0;
+    }
+  }
+
+  .workWay {
+    h3 {
+      color: white !important;
+      text-align: left;
+    }
+    text-align: center;
+    figure {
+      margin-top: 3rem;
+      background: rgb(44, 44, 44);
+      border-radius: $radius;
+      img {
+        width: 70%;
+        @include responsive-for(md) {
+          width: 100%;
+        }
+      }
+    }
+
+    .workItems {
+      h3 {
+        margin-top: 3rem;
+      }
+      figure {
+        img {
+          height: 35rem;
+          width: 100%;
+          object-fit: cover;
+
+          padding: 1rem;
+          @include responsive-for(md) {
+            height: 25rem;
+          }
+          @include responsive-for(md) {
+            height: 20rem;
+          }
+        }
+      }
+    }
+  }
+}

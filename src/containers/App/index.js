@@ -6,6 +6,7 @@ import Footer from '../../components/Footer';
 import Home from '../Home';
 import Contact from '../Contact';
 import Projects from '../Projects';
+import HowWork from '../HowWork';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <section className='contentWrapper'>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/how' element={<HowWork />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/projects' element={<Projects />} />
           </Routes>

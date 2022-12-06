@@ -44,10 +44,9 @@ const index = () => {
               </p>
 
               <section className='homeWrapper-buttons'>
-                <Link to='/contact'>
+                <Link to='/how'>
                   <button className='bton bton--primary bton--lg '>
-                    {' '}
-                    Let's Talk{' '}
+                    How I work
                   </button>
                 </Link>
 
