@@ -33,6 +33,67 @@ const MyWorks = () => {
           <Row className='justify-content-between'>
             <Col lg={5} md={12}>
               <section className='cardsHolder-pills'>
+                <span>UX Research</span>
+                <span>UI Design</span>
+                <span>Web Development</span>
+              </section>
+
+              <section className='cardsHolder-desc'>
+                <Slide left>
+                  <h3 className='cardsHolder-desc-title'>Tuna Technology</h3>
+                </Slide>
+                <Slide left delay={100}>
+                  <p className='cardsHolder-desc-paragraph'>
+                    Tuna Technology is a cutting-edge tech company that was
+                    founded to assist businesses in overcoming obstacles and
+                    increasing their ability to compete in the market.
+                    <br />
+                    In this project I was involved in UX testing, UI Design and
+                    front end development. A design system was implemented in
+                    this project for overall consistent architecture of the
+                    project.
+                  </p>
+                </Slide>
+                <a
+                  href='https://www.tunatechnology.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <Slide left delay={200}>
+                    <button className='bton bton--md bton--ghost'>
+                      View Project
+                    </button>
+                  </Slide>
+                </a>
+                <a
+                  href='https://www.researchgate.net/publication/363364494_UIUX_Research_Methodologies_and_findings_Tuna_Technology'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <Slide left delay={200}>
+                    <button className='bton bton--md bton--secondary ms-0 ms-sm-2 mt-2 mt-sm-0'>
+                      Case Study
+                    </button>
+                  </Slide>
+                </a>
+              </section>
+            </Col>
+            <Col lg={6} md={12}>
+              <Fade right>
+                <figure className='cardsHolder-image'>
+                  <img src={TunaImage} alt='' />
+                </figure>
+              </Fade>
+            </Col>
+          </Row>
+        </section>
+      </Container>
+
+      <Container>
+        <section className='cardsHolder'>
+          <Row className='justify-content-between'>
+            <Col lg={5} md={12}>
+              <section className='cardsHolder-pills'>
                 <span>web development</span>
                 <span>QR Ordering</span>
                 <span>UX Research</span>
@@ -133,66 +194,6 @@ const MyWorks = () => {
               <Fade left>
                 <figure className='cardsHolder-image'>
                   <img src={Rucir} alt='' />
-                </figure>
-              </Fade>
-            </Col>
-          </Row>
-        </section>
-      </Container>
-      <Container>
-        <section className='cardsHolder'>
-          <Row className='justify-content-between'>
-            <Col lg={5} md={12}>
-              <section className='cardsHolder-pills'>
-                <span>UX Research</span>
-                <span>UI Design</span>
-                <span>Web Development</span>
-              </section>
-
-              <section className='cardsHolder-desc'>
-                <Slide left>
-                  <h3 className='cardsHolder-desc-title'>Tuna Technology</h3>
-                </Slide>
-                <Slide left delay={100}>
-                  <p className='cardsHolder-desc-paragraph'>
-                    Tuna Technology is a cutting-edge tech company that was
-                    founded to assist businesses in overcoming obstacles and
-                    increasing their ability to compete in the market.
-                    <br />
-                    In this project I was involved in UX testing, UI Design and
-                    front end development. A design system was implemented in
-                    this project for overall consistent architecture of the
-                    project.
-                  </p>
-                </Slide>
-                <a
-                  href='https://www.tunatechnology.com/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <Slide left delay={200}>
-                    <button className='bton bton--md bton--ghost'>
-                      View Project
-                    </button>
-                  </Slide>
-                </a>
-                <a
-                  href='https://www.researchgate.net/publication/363364494_UIUX_Research_Methodologies_and_findings_Tuna_Technology'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <Slide left delay={200}>
-                    <button className='bton bton--md bton--secondary ms-0 ms-sm-2 mt-2 mt-sm-0'>
-                      Case Study
-                    </button>
-                  </Slide>
-                </a>
-              </section>
-            </Col>
-            <Col lg={6} md={12}>
-              <Fade right>
-                <figure className='cardsHolder-image'>
-                  <img src={TunaImage} alt='' />
                 </figure>
               </Fade>
             </Col>

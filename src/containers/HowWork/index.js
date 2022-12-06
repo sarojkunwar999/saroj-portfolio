@@ -11,6 +11,7 @@ import UI1 from '../../Images/research/UI.png';
 import UI2 from '../../Images/research/uiimage.png';
 import StyleGuide from '../../Images/research/styleguide.png';
 import Prototype from '../../Images/research/prototype.png';
+import { Slide } from 'react-reveal';
 
 const HowWork = () => {
   return (
@@ -25,14 +26,18 @@ const HowWork = () => {
               <Row>
                 <h3> Requirement Story & User Personas </h3>
                 <Col md={6}>
-                  <figure>
-                    <img src={ReqSrory} alt='' />
-                  </figure>
+                  <Slide bottom>
+                    <figure>
+                      <img src={ReqSrory} alt='' />
+                    </figure>
+                  </Slide>
                 </Col>
                 <Col md={6}>
-                  <figure>
-                    <img src={Personas} alt='' />
-                  </figure>
+                  <Slide bottom>
+                    <figure>
+                      <img src={Personas} alt='' />
+                    </figure>
+                  </Slide>
                 </Col>
               </Row>
             </section>
@@ -40,14 +45,18 @@ const HowWork = () => {
               <Row>
                 <h3> Information Architectures & User Flows </h3>
                 <Col md={6}>
-                  <figure>
-                    <img src={IA} alt='' />
-                  </figure>
+                  <Slide bottom>
+                    <figure>
+                      <img src={IA} alt='' />
+                    </figure>
+                  </Slide>
                 </Col>
                 <Col md={6}>
-                  <figure>
-                    <img src={UF} alt='' />
-                  </figure>
+                  <Slide bottom>
+                    <figure>
+                      <img src={UF} alt='' />
+                    </figure>
+                  </Slide>
                 </Col>
               </Row>
             </section>
@@ -55,37 +64,49 @@ const HowWork = () => {
               <Row>
                 <h3> Wireframes and UI</h3>
                 <Col md={6}>
-                  <figure>
-                    <img src={WF1} alt='' />
-                  </figure>
+                  <Slide bottom>
+                    <figure>
+                      <img src={WF1} alt='' />
+                    </figure>
+                  </Slide>
                 </Col>
                 <Col md={6}>
-                  <figure>
-                    <img src={UI2} alt='' />
-                  </figure>
+                  <Slide bottom>
+                    <figure>
+                      <img src={UI2} alt='' />
+                    </figure>
+                  </Slide>
                 </Col>
                 <Col md={6}>
-                  <figure>
-                    <img src={UI1} alt='' />
-                  </figure>
+                  <Slide bottom>
+                    <figure>
+                      <img src={UI1} alt='' />
+                    </figure>
+                  </Slide>
                 </Col>
                 <Col md={6}>
-                  <figure>
-                    <img src={WF2} alt='' />
-                  </figure>
+                  <Slide bottom>
+                    <figure>
+                      <img src={WF2} alt='' />
+                    </figure>
+                  </Slide>
                 </Col>
                 <section className='workItems'>
                   <Row>
                     <h3> Styleguide and Prototype </h3>
                     <Col md={6}>
-                      <figure>
-                        <img src={Prototype} alt='' />
-                      </figure>
+                      <Slide bottom>
+                        <figure>
+                          <img src={Prototype} alt='' />
+                        </figure>
+                      </Slide>
                     </Col>
                     <Col md={6}>
-                      <figure>
-                        <img src={StyleGuide} alt='' />
-                      </figure>
+                      <Slide bottom>
+                        <figure>
+                          <img src={StyleGuide} alt='' />
+                        </figure>
+                      </Slide>
                     </Col>
                   </Row>
                 </section>

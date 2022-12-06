@@ -1,15 +1,15 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+// import { Container, Row, Col } from 'react-bootstrap';
 
-import TunaImage from '../../Images/tunaImage.png';
-import Hotelpauwa from '../../Images/hotelpauwa.png';
-import Siyasteel from '../../Images/siyasteel.png';
-import Pashupati from '../../Images/pashupati.png';
-import SajhaMenu from '../../Images/sajhamenu.png';
-import TunaERP from '../../Images/tunaerp.png';
-import AllElectricall from '../../Images/allelectricall.png';
-import PaichoPasal from '../../Images/paichopasal.png';
-import Fade from 'react-reveal/Fade';
+// import TunaImage from '../../Images/tunaImage.png';
+// import Hotelpauwa from '../../Images/hotelpauwa.png';
+// import Siyasteel from '../../Images/siyasteel.png';
+// import Pashupati from '../../Images/pashupati.png';
+// import SajhaMenu from '../../Images/sajhamenu.png';
+// import TunaERP from '../../Images/tunaerp.png';
+// import AllElectricall from '../../Images/allelectricall.png';
+// import PaichoPasal from '../../Images/paichopasal.png';
+// import Fade from 'react-reveal/Fade';
 import { useEffect } from 'react';
 import Logos from '../../components/Logos';
 import MyWorks from '../../components/MyWorks';
